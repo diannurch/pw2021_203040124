@@ -115,7 +115,7 @@ $products = [
 </head>
 <body>
 
-    <div class="container mt-5 mb-7">
+    <div class="container mt-5 mb-5">
         <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
