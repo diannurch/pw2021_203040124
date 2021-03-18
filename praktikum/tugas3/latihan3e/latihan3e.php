@@ -17,7 +17,7 @@ $products = [
         "brand" => "Nike",
         "description" => "Material Suede, Size 38-42",
         "category" => "Sneakers",
-        "price" => "Rp. 1. 050.000"
+        "price" => "Rp. 999.999"
     ],
     [
         "picture" => "foto2.png",
@@ -107,34 +107,26 @@ $products = [
 
     <link rel="stylesheet" href="css/style.css">
 
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
     <!-- Import bootsrap.css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     
-    <!-- using fontawseome ----->
-    <script src="https://kit.fontawesome.com/0fc708ed1b.js"
-    crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-    <div class="container mt-5 mb-5">
-        <table id="cari" class="table table-hover">
+    <div class="container mt-5 mb-7">
+        <table class="table table-bordered table-striped table-hover">
             <thead>
-                <tr class="tab">
-                    <th>No<i class="material-icons">import_export</i></th>
-                    <th>Picture<i class="material-icons">import_export</i></th>
-                    <th>Name<i class="material-icons">import_export</i></th>
-                    <th>Brand<i class="material-icons">import_export</i></th>
-                    <th class="deskripsi">Decription<i class="material-icons">import_export</i></th>
-                    <th>Price<i class="material-icons">import_export</i></th>
-                    <th>Category<i class="material-icons">import_export</i></th>
-                </tr>
+            <tr>
+                <th scope="col">NO</th>
+                <th scope="col">Picture</th>
+                <th scope="col">Name</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">Category</th>
+            </tr>
             </thead>
             <?php $i = 1 ?>
             <?php foreach( $products as $p ) : ?>
